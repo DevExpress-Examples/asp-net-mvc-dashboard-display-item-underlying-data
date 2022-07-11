@@ -9,7 +9,7 @@ The example shows how to get underlying data for the specified dashboard item. 
 
 ![](dashboard-and-grid.png)
 
-The example uses the [`ViewerApiExtension.requestUnderlyingData`](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.ViewerApiExtension?p=netframework#js_devexpress_dashboard_viewerapiextension_requestunderlyingdata) method and passes the component name of the dashboard item and specific parameters to request data.
+The example uses the [ViewerApiExtension.requestUnderlyingData](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.ViewerApiExtension?p=netframework#js_devexpress_dashboard_viewerapiextension_requestunderlyingdata) method and passes the component name of the dashboard item and specific parameters to request data.
 
 ## Files to Look At
 
