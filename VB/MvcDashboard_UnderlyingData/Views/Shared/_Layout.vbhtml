@@ -6,12 +6,12 @@
     <title>@ViewBag.Title</title>
 
     @Html.DevExpress().GetStyleSheets(
-            new StyleSheet { ExtensionSuite = ExtensionSuite.Dashboard }
+            New StyleSheet With {.ExtensionSuite = ExtensionSuite.Dashboard }
     )
     @Html.DevExpress().GetScripts(
-            new Script { ExtensionSuite = ExtensionSuite.Dashboard }
+            New Script With {.ExtensionSuite = ExtensionSuite.Dashboard }
     )
-    @RenderSection("Scripts", required: false)
+    @RenderSection("Scripts")
 </head>
 
 <body>
